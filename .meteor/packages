@@ -6,3 +6,5 @@
 
 meteor-platform
 twbs:bootstrap
+kadira:flow-router
+kadira:blaze-layout
