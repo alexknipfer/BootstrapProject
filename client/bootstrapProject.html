@@ -1,14 +1,37 @@
-<head>
-  <title>bootstrapProject</title>
-</head>
+  <head>
+    <title>Dolphins</title>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
 
-<body>
-  <h1>Welcome to Meteor!</h1>
+  <body>
+    <nav class="navbar navbar-inverse">
+         <div class="container-fluid">
 
-  {{> hello}}
-</body>
+             <!-- Logo -->
+             <div class="navbar-header">
+                 <a href="#" class="navbar-brand">Dolphins</a>
+             </div>
 
-<template name="hello">
-  <button class="btn btn-primary">Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-</template>
+             <!-- Menu Items -->
+             <div>
+                 <ul class="nav navbar-nav">
+                     <li class="active"><a href="#">Home</a></li>
+                     <li><a href="#">About</a></li>
+                     <li><a href="#">Contact</a></li>
+
+                     <!-- drop down menu -->
+                     <li class="dropdown">
+                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Profile <span class="caret"></span></a>
+                         <ul class="dropdown-menu">
+                             <li><a href="#">Friends</a></li>
+                             <li><a href="#">Photos</a></li>
+                             <li><a href="#">Settings</a></li>
+                         </ul>
+                     </li>
+                 </ul>
+             </div>
+
+         </div>
+     </nav>
+  </body>
